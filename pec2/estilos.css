@@ -1,0 +1,247 @@
+/* -------------------------ESTRUCTURA------------------------- */
+body {
+      background-color: #eaeaea;
+	  text-align: justify;
+}
+
+#contenedor {
+      width: 66%;
+      max-width: 800px;
+      min-width: 500px;
+      margin: 0 auto;
+      padding: 1.5%;
+      background-color: white;
+}
+
+header {
+      margin-bottom: 30px;
+}
+
+
+/* -------------------------NAVEGACION------------------------- */
+
+.menu {
+      width: 100%;
+      height: 50px;
+      padding: 1px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      list-style-type: none;
+}
+.menu > li {
+      display: inline-block;
+      width: 28.7%;
+}
+.boton {
+      margin-right: 5%;
+}
+.menu > li > a {
+      display: block;
+      width: 78%;
+      padding: 5% 15.5%;
+      border: 2px solid black;
+      border-radius: 50px;
+      text-decoration: none;
+      text-align: center;
+      font: normal normal bold 1.2em Tahoma, Verdana, sans-serif;
+}
+
+a.seleccionado {
+      background-color: #cccccc;
+
+	color: black;
+}
+
+a.noSeleccionado {
+      background-color: white;
+      color: #cccccc;
+}
+
+a.seleccionado:hover {
+      background-color: white;
+      color: black;
+}
+
+a.noSeleccionado:hover {
+      background-color: #cccccc;
+      color: white;
+}
+
+
+
+/* -------------------------RESPUESTAS------------------------- */
+
+#respuestas .encabezado {
+      background-color: #eaeaea;
+      padding: 2em 2em 0.5em 2em;
+      color: #cccccc;
+}
+
+#respuestas .encabezado h1 {
+      font: normal normal bold 1.8em Tahoma, Verdana, sans-serif;
+      margin: -0.5em -0.5em -0.5em -0.5em;
+	  color: black;
+}
+#respuestas .firma {
+      font: normal normal normal 1.4em Tahoma, Verdana, sans-serif; 
+	  text-align: right;
+	  color: black
+	
+}
+
+#respuestas1 {
+	display: block;
+	margin: auto;
+	padding: 12px;
+}
+
+
+dt {
+    font: normal normal normal 0.8em Georgia, 'Times New Roman', serif;
+    color: black;
+    font-weight: bold;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#respuestas code {
+	font-size: 1.3em;
+}
+
+
+
+/* -------------------------LISTAS------------------------- */
+
+
+.title {
+	background-color: #cccccc;
+    padding: 1.5em 1.5em 1.5em 2.5em;
+    color: black;
+	width: auto;
+	text-align: center;
+	font-size: 2.5em;
+	}
+
+
+#table {
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	font-size: 1.3em;
+}
+
+
+li.logohtml {
+	
+	list-style-image: url(IMG/html5.png);
+}
+
+li.logotag {
+	
+	list-style-image: url(IMG/tag.png);
+	
+}
+
+ol a:link {
+	
+	text-decoration:none; color:#f16529;
+	
+}
+
+ol a:hover {
+	
+	text-decoration: underline; color: #9b411a;
+	
+}
+
+
+/* -------------------------POSVERDAD------------------------- */
+
+
+#postverdad article {
+	text-align: justify;
+	
+}
+
+#posverdad header
+{
+	background-color: #cccccc;
+	font-family: Verdana, sans-serif;	
+	padding: 1em;
+}
+
+#posverdad h1
+{
+	color: black;
+	font-size: 1.5em;
+	margin-bottom: 1em;
+	text-align: center
+}
+
+
+
+#autor{
+	color: #9b411a;
+	text-align: right;
+	font-size: 1.2em;
+	
+	
+}
+
+
+#introduccion {
+	
+	color: #f16529;
+	
+}
+
+.texto1 {
+	
+	background-color: #CCCCCC;
+	width: 350px;
+	margin: auto;
+	padding: 0.5em 1em 0.5em 1em;
+	font-size: 0.85em;
+	text-align: center;
+	
+}
+
+
+.nombres {
+	
+	color: #9b411a;
+}
+
+
+.citaderecha {
+	font-style: italic;
+	font-size: 1.1em;
+	line-height: 1.3;
+	font-family: Georgia, serif;
+	max-width: 250px;
+	max-height: 200px;
+	text-align: center;
+	border-bottom: dotted 0.1em #F16529;
+	border-top: dotted 0.1em #F16529;
+	padding: 1.2em 0.5em;
+	float: right;
+	}
+
+#imagen1, #imagen2 {
+	display: block;
+	margin: auto;
+	padding: 12px;
+}
+
+footer {
+      background-color: #cccccc;
+      background-image: url(IMG/ccommons.jpg); 
+      background-size: 20% auto;
+      background-repeat: no-repeat;
+      background-position: 3% 50%;
+      padding: 2% 2% 2% 24%;
+      margin: auto;
+      font: normal normal normal 0.6em Georgia, 'Times New Roman', serif;
+	  text-align: justify;
+      line-height: 1.4em;
+      color: black;
+}

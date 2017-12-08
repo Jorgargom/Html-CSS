@@ -1,0 +1,395 @@
+body {
+    
+    width: 100%;
+    margin: 0;
+    background-color: white;
+	color: black;
+	font-family:  Roboto, Arial, sans-serif; 
+
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------ CABECERA --------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+
+/*----------- Logo y nombre de la Web --------------*/
+
+#cabecera {
+    padding: 10px 20px 0 20px;
+	border-bottom: 10px solid #dbdbdb;
+	background-color: white;
+}
+
+#cabecera #espacio-logo {
+    height: 56px;
+	width: 500px;
+	display: inline-block;
+}
+
+#cabecera #espacio-logo *{
+	vertical-align: middle;
+}
+
+#espacio-logo h1 {
+	display: inline-block;	
+	margin: 40px;
+	
+}
+
+#cabecera #espacio-logo img {
+    height: 150px;
+    width: 150px;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+#espacio-logo a:link, a:visited {
+    color: black;
+    text-decoration: none;
+	
+}
+
+#espacio-logo a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+
+/*--- Barra de acceso a inicio, favoritos y login ---*/
+
+
+#cabecera #iconos {
+    float: right;
+    line-height: 56px;
+}
+
+#cabecera #iconos img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    padding: 0.5em;
+}
+
+
+/*--- Barra de acceso a las redes sociales ---*/
+
+#botonera-redes {
+	height: 60px;
+}
+
+#facebook, #twitter, #instagram, #pinterest {
+    clear: left;
+    float: right;
+    width: 50px;
+    height: 50px;
+    background-image: url(sprite_icons.png);
+    background-size: 207px;
+    transition-property: background-position;
+    transition-duration: .1s;
+    transition-timing-function:ease-out;
+}
+
+#facebook {background-position: 0px 50px;}
+
+#facebook:hover {background-position: 0px 0px;}
+
+#twitter {background-position: -50px 50px;}
+
+#twitter:hover {background-position: -50px 0px;}
+
+#pinterest {background-position: -102px 50px;}
+
+#pinterest:hover {background-position: -102px 0px;}
+
+#instagram {background-position: -157px 50px;}
+
+#instagram:hover {background-position: -157px 0px;}
+
+
+#redessociales li, #redessociales a, #redessociales a:hover{
+	height: 50px;
+	width: 50px;
+	display: block;
+}
+
+/*------------------------------------------------------------------------------------------*/
+/* --------------------------------- PIE DE PÁGINA -----------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+footer {
+    padding: 1em 20px 0 20px;
+	margin-top: 2em;
+	border-top: 2px solid grey;
+
+}
+#izquierda {
+	text-align: right;
+}
+
+footer .links {
+    width: 45%;
+    margin-top: 0;
+    display: inline-block;
+    list-style-type: none;
+}
+
+footer .links:last-child {
+    margin-left: 20px;
+}
+.links li {
+	padding: 0.3em;
+}
+
+footer a:link, a:visited {
+    text-decoration: none;
+	color: black;
+}
+
+footer a:hover {
+    text-decoration: none;
+	color: grey;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------ CONTENIDO PRINCIPAL ---------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+#contenido {
+    max-width: 970px;
+    margin: 10px auto 10px auto;
+}
+
+#contenido a:link, a:visited {
+    text-decoration: none;
+	color: black;
+}
+
+#contenido a:hover {
+    text-decoration: none;
+	color: grey;
+}
+
+.menu {    
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline;
+	font-weight: bold;
+}
+
+#menu-principal {
+    width: 60%;
+    display: inline-block;
+	
+}
+
+#menu-principal li, #menu-secundario li{
+	padding-right: 1em;
+}
+
+#hilodemigas {
+	padding-left: 3.5em;
+	font-size: 80%;
+	margin-bottom: 1em;
+	padding-bottom: 0.6em;
+	border-bottom: 2px solid grey;
+}
+
+#buscador {
+    margin-top: 1em;
+    float: right;
+    line-height: 24px;
+}
+
+#buscador img {
+    width: 16px;
+    vertical-align: middle;
+}
+
+#contenido-negro {
+    text-align: center;
+	border-top: 4px solid grey;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/*--------------------------- CONTENIDO DE LA PAGINA PRINCIPAL -----------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+
+
+
+#contenido-principal {
+    text-align: center;
+	border-top: 4px solid grey;
+}
+
+#contenido-principal h1 {
+	font-size: 140%;
+	line-height: 170%;
+	border: 1px solid black;
+	color: white;
+	background-color: black;
+	padding-right: 6em;
+	padding-left: 6em;
+    border-radius: 1em;
+}
+#imagen-promocion {
+	max-width: 960px;
+    border-radius: 40px;
+}
+
+.nuevas-novedades {
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+	text-align:center;
+}
+
+.nuevas-novedades h2 {
+	font-size: 120%;
+	min-height: 44px;
+}
+.nuevas-novedades img{
+    
+    border-radius: 1em;
+}
+
+.nuevas-novedades p {
+	min-height: 72px;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------- LISTADO DE PRODUCTOS -------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+
+#filtro {
+	width: 280px;
+	display:inline-block;
+	max-height:1100px;
+	margin:auto;
+	vertical-align: top;
+}
+
+#filtro li{
+	list-style-type:none;
+	line-height: 180%;
+}
+
+#listado-productos {
+	width: 650px;
+	max-width: 650px;
+	display: inline-block;
+	text-align: center;
+	list-style-type:none;
+}
+
+#listado-productos h1, #listado-productos p {
+	font-size:90%;
+    padding: 1em;
+}
+
+.productos {
+	width: 32%;
+	display: inline-block;
+}
+
+.productos img {
+    
+    max-width: 200px;
+    border-radius: 20px;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/*---------------------------------- FICHAS DE PRODUCTOS -----------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+
+#imagen-producto {
+	width: 49%;
+	text-align: center;
+	display: inline-block;
+}
+#ficha-producto h1 {
+	font-size: 150%;
+}
+
+#ficha-producto {
+	width: 49%;
+	display: inline-block;
+	text-align: center;
+	line-height: 180%;
+	vertical-align: top;
+	padding-top: 2em;
+}
+#ficha-producto  input[type="number"] {
+	width:50px;
+}
+
+#descripcion-producto h1 {
+	font-size: 150%;
+    padding-left: 1em;
+}
+#descripcion-producto  {
+	padding-left: 1em;
+	line-height: 140%;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/*---------------------------------- PREGUNTAS FRECUENTES ----------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+
+
+#columna-izquierda {
+	width: 45%;
+	display: inline-block;
+	padding: 1em;
+	vertical-align: top;
+	line-height: 140%;
+	
+}
+
+#columna-izquierda dt, dd, #columna-derecha dt, dd {
+	margin-bottom: 1em;
+    text-align: justify;
+}
+
+#columna-derecha dt, #columna-izquierda dt{
+	border: 1px solid black;
+    border-radius: 10px;
+	color: white;
+	background-color: black;
+	padding-left: 1em;
+	
+}
+
+#columna-derecha {
+	width: 45%;
+	display: inline-block;
+	padding: 1em;
+	vertical-align: top;
+	line-height: 140%;
+	border-left: 2px solid grey;
+}
+#columna-derecha table, td, th{
+	border: 1px solid;
+	border-collapse: collapse;
+	
+}
+#columna-derecha table {
+	margin: 1em 0;
+}
+
+#columna-derecha td, th{
+	padding: 0 1em;
+}

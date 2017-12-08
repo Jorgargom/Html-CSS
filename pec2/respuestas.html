@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Solución a las preguntas de la PEC 2</title>
+        <link href="estilos.css" rel="stylesheet" media="screen" />
+        <meta name="description" content="Respuestas de Jorge García a las preguntas planteadas en la PEC 2 de la asignatura Lenguajes y estándares web de la UOC" />
+        <meta name="keywords" content="Respuestas, PEC, Lenguajes de Programación, UOC" />
+    </head>
+
+
+    <body>
+          <div id="contenedor">
+                <header>
+                   <nav>
+                      <ul class="menu">
+                            <li class="boton"><a href="respuestas.html" title="Solución a las preguntas de la PEC 2" class="seleccionado">Respuestas</a></li>
+                            <li class="boton"><a href="elementos.html" title="Lista de elementos HTML" class="noSeleccionado">Elementos</a></li>
+                            <li class="ultimoBoton"><a href="posverdad.html" title="Palabra del año 2016" class="noSeleccionado">Posverdad</a></li>
+                      </ul>
+                   </nav>
+                </header>
+                
+                 
+             <section id="respuestas">
+                 
+                    <div class="encabezado">
+                            
+                            <h1>Lenguajes y estándares web: Solución a las preguntas planteadas en la PEC 2</h1>
+                            <p class="firma">Jorge García Gómez</p>
+                    </div>
+                      
+					  <h2>Pregunta 1</h2>
+                     
+                        <dl>   
+                                           
+                            <dt>¿Qué opciones ofrece <code>CSS</code> para posicionar la imagen de fondo de un elemento? Pon un
+							ejemplo.</dt>
+                           
+                            <dd>CSS permite controlar la posición de la imagen dentro del fondo del elemento mediante la propiedad background-position. Esta propiedad es aplicable a cualquier elemento e indica la distancia que se desplaza desde la esquina superior izquierda. Para esta propiedad se especificarán 2 valores, si se indican dos porcentajes o dos medidas, el primero indica el desplazamiento horizontal y el segundo el desplazamiento vertical respecto del origen (situado en la esquina superior izquierda) y si solamente se indica un porcentaje o una medida, se considera que es el desplazamiento horizontal y al desplazamiento vertical se le asigna automáticamente el valor de 50%.
+                            Además existe la posibilidad de definir la posición de la imagen de fondo mediante palabras clave. Los posibles valores son los siguientes:
+                            top | left | center | bottom |right
+                            Si se utilizan solamente palabras clave, el orden es indiferente y por tanto, es lo mismo indicar top left y left top.
+                            </dd>
+						
+                         </dl>
+                       
+                     <h2>Pregunta 2</h2>
+                          
+                         <dl>
+                                                         
+                            <dt>¿En qué consiste el <code>"quirks mode"</code>? ¿Cuándo lo utilizan los navegadores?</dt>
+                            
+                            <dd>Antiguamente no existía una técnica para poder decirle al navegador la versión de <abbr title="HyperText Markup Language o Lenguaje de Marcas de HiperTexto">HTML</abbr> que se está utilizando, por lo que en los casos de las páginas <abbr title="HyperText Markup Language o Lenguaje de Marcas de HiperTexto">HTML</abbr>, que no incluyan un DOCTYPE, los navegadores utilizan un modo de compatibilidad denominado quirksmode en el cual asumen que la página está construida con técnicas obsoletas y errores comunes del siglo pasado por lo que interpreta la página con reglas diferentes. Para los navegadores es importante conocer el doctype de la página web, porque de ese modo pueden mostrar la página web con la versión exacta del lenguaje <abbr title="HyperText Markup Language o Lenguaje de Marcas de HiperTexto">HTML</abbr> o <abbr title="HyperText Markup Language o Lenguaje de Marcas de HiperTexto">HTML</abbr> con la que fue construida. Si no tienen una declaración de doctype, interpretarán la página en lo que se llama "quirks mode", un modo que procura maximizar la compatibilidad de la página con versiones anteriores del lenguaje <abbr title="HyperText Markup Language o Lenguaje de Marcas de HiperTexto">HTML</abbr>.</dd>
+
+                         </dl>
+                    
+                     <h2>Pregunta 3</h2>
+                          
+                         <dl>
+                            
+                            <dt>¿Qué dos maneras básicas existen para colocar una imagen en una página web, en función de su semántica? Pon un ejemplo de cada una de ellas.</dt>
+                            
+                            <dd>Existen 2 maneras para colocar una imagen en una página web, una mediante el <code>img</code> utilizando esta cuando la imagen sea importante para el contenido, como por ejemplo un gráfico de datos, un paisaje, etc..., la otra sería mediante CSS cuando la finalidad de la imagén tenga solo una finalidad estética o para utilizar en fondos.<br>
+                            <br>
+                            Ejemplo para IMG:<br>
+                            <br>
+                            IMG SRC="aqui introduccimos la ubicación de la imagen", TITLE para ponerle titulo a la imagen, con esto conseguimos que al pasar el raton por encima podamos ver informacion sobre la imagen ALT="aqui describimos la foto brevemente, podiendo utilizar longdesc si el texto es mucho mayor en contenido" WITDTH para definir la anchura de la imagen y HEIGHT para la altura, BORDER para aplicarle un borde a la imagen y ALIGN para la posicion de la imagen.<br>
+                            Ejemplo para CSS:<br>
+                            <br>
+                            Para CSS utilizariamos background image para la ubicacion de la imagen y backgroun position para ubicar la imagen.
+                            
+                              
+                           
+                            
+                 
+                            
+                            
+                            
+                            
+                            </dd>
+						 
+                        </dl>
+                    
+                     <h2>Pregunta 4</h2>
+                         
+                        <dl>
+                             
+                            <dt>¿Qué son las directrices de accesibilidad del contenido web del W3C ? ¿Qué versiones existen de ellas?</dt>
+                            
+                            <dd>La accesibilidad en un sitio Web consiste en garantizar el acceso a la información y a los servicios de sus páginas sin limitación ni restricción alguna por razón de discapacidad de cualquier carácter o condicionantes técnicos, debiendo tener en cuenta que muchas personas que acceden a la información incluida en páginas Web lo hacen desde diferentes dispositivos y contextos.<br>
+                            <br>
+                            Existen 2 versiones:<br>
+                            <br>
+                            En mayo de 1999 se publicó WCAG 1.0, la primera versión de las pautas de accesibilidad web. La redacción de estas pautas hacía constantemente referencia a tecnologías concretas como HTML o CSS, lo cual se vio al poco tiempo de su publicación que era un problema porque las tecnologías web evolucionaban rápidamente con el tiempo y las pautas se podían quedar obsoletas en un plazo de tiempo corto.<br>
+                            <br>                          
+ 							En diciembre de 2008 se publicó WCAG 2.0, la segunda y última versión hasta el momento de las pautas de accesibilidad web. En esta nueva versión se intentó lograr que las pautas fueran independientes de la tecnología.
+                            
+                            
+                            
+                            </dd>
+					
+                   		</dl>
+                    
+                     <h2>Pregunta 5</h2>
+                          
+                         <dl>
+                             
+                            <dt>¿Cómo se calcula la anchura computada de un elemento atendiendo al modelo de cajas?. Pon un ejemplo práctico. Investiga también las novedades que aporta CSS3 respecto a este tema y haz un pequeño resumen de ellas.</dt>
+                           
+                            <dd>La regla básica es que la anchura o altura computada de un elemento es igual a: <br>
+                            <br>
+                            
+                            margin + border + padding + width|height<br>
+                            .1em   + .9em   +  50em   + .9em + .1em  =   52em
+                  	
+                            </dd>
+                         
+                         </dl>
+              </section>
+          </div>
+    </body>
+    </html>

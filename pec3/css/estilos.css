@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family:  'georgia', 'times', serif;
+    font-size: 100%;
+    color: black;
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+    max-width: 1300px;
+    line-height: 180%;
+}
+
+.logo img {
+    display: block;
+    margin: auto;
+    width: 480px;
+    padding: 2em;
+}
+
+/*------------- LAYOUT -------------------- */
+
+header {
+background-color: white;
+}
+
+.contenedor {
+	background-color: white;
+	
+}
+
+#derecha {
+	margin-top: 50px;
+	min-height: 500px;
+	float: left;
+	width: 25%;
+	text-align: right;
+    border-left: 1px solid black;
+    padding-right: 3em;
+    padding-left: 2em;
+	
+}
+
+#centro {
+	margin-top: 50px;
+	min-height: 500px;
+	float: left;
+	width: 25%;
+	text-align: center;
+    padding-right: 3em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+}
+
+#izquierda {
+	margin-top: 50px;
+    margin-left: 40px;
+	min-height: 500px;
+	float: left;
+	width: 25%;
+	text-align: justify;
+	border-right: 1px solid black;
+    padding-right: 3em;
+    padding-left: 2em;
+}
+
+hr { 
+    border-style: solid;
+    border-width: 3px;
+	border-color: pink;
+    margin-top: 0.5em;
+}
+
+footer {
+background-color: blue;
+color: #fff;
+text-align: center;
+margin: 0 auto;
+clear: both;
+padding: 1em
+}
+
+
+
+/*------------- NAVEGACIÓN -------------------- */
+
+nav ul {
+    background-color: blue;
+    list-style: none;
+    text-align: center;
+    padding: 0.8em;
+    font-family:  'helvetica', 'arial', sans-serif;
+    font-size: 1.3em;
+    font-weight:lighter;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 0.9em;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover, .active, .copy a:hover, tfoot a:hover {
+   color: #73edff;
+}
+
+
+/*------------- TIPOGRAFIA -------------------- */
+
+.buttom {
+text-decoration: none;
+background-color: #999999;
+color: #fff;
+ font-family:  'helvetica', 'arial', sans-serif;
+text-transform: uppercase;
+padding: 0.3em 1em; 
+display: inline-block;
+margin: 2em 0 0 0;
+border-radius: 4px;
+transition: all 500ms ease;
+}
+
+.buttom:hover {
+background-color: #000;
+}
+
+.copy {
+font-size: 0.8em;
+}
+
+.copy a {
+color: #555;
+text-decoration: none;
+}
+
+.aligncenter {
+text-align: center;
+}
+
+.uoc {
+    border-bottom:  1px dotted #f790ff;
+}
+#editorial  {
+    color: #f790ff
+}
+
+
+/*------------- TABLE CURSOS-------------------- */
+
+
+table {
+    font-family: 'arial', 'helvetica', sans-serif;
+	width: 91%;
+    margin: 4em ;
+    border-collapse: collapse;
+}
+
+caption {
+font-size: 1.7em;
+padding: 0.5em
+}
+
+th {
+text-align: left;
+}
+
+th[scope="col"] {
+	background-color: #d56a6a;
+    align-content: center;
+    color: white;
+}
+
+th[scope="row"] {
+	vertical-align: center;
+    background-color: #d56a6a;
+    color: white;
+}
+
+td, th {
+	padding: 7px;
+	border: 2px solid #ffa6a6;
+}
+
+tr:nth-child(2n+1) {
+background-color: white;
+
+}
+
+tr:nth-child(2n) {
+background-color: #f7cfcf;
+
+}
+
+tfoot tr td {
+background-color: white;
+text-align: center;
+font-size: 1em;
+color: black;
+padding: 2em;
+}
+
+
+
+
+/*------------- HOJA DE PEDIDOS -------------------- */
+
+
+.aligncenter {
+    padding-top: 22px;
+    font-weight: bolder;
+    font-size: 1.7em;
+    font-family: 'arial', 'helvetica', sans-serif;
+}
+
+form {
+font-family: 'arial', 'helvetica', sans-serif;
+margin-bottom: 6em;
+}
+
+form ul {
+list-style: none;
+}
+
+fieldset {
+background-color: white;
+margin: 1em;    
+padding: 2em;
+}
+
+legend {
+font-weight: bolder;
+font-size: 1.5em;
+}
+
+label {
+font-size: 1.2em;
+display: inline-block;
+margin-top: 1em;
+}
+
+input[type=radio] {
+margin-left: 2em;
+}
+
+.form-required {
+color: #f00;
+}
+
+
+.left, .right {
+width: 46%;
+margin: 1%;
+}
+
+.left {
+float: left;
+}
+
+.right {
+float: right;
+}
+
+.formsubmit {
+width: 96%;
+margin: 0 auto;
+color: black;
+}
+
+input[type=text], input[type=email], input[type=tel], input[type=date] {
+width: 100%;
+border: 1px solid;
+background-color: white;
+padding: 0.2em;
+height: 2em;
+}
+
+button[type=submit]{
+width: 100%;
+background-color: #000;
+color: #fff;
+border: 0;
+font-size: 1.2em;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+line-height: 2.5em;
+transition: all 500ms ease;
+}
+
+button:hover {
+ background: #73edff;
+ color: #000;
+ box-shadow: inset 0 0 0 3px #000;
+}
